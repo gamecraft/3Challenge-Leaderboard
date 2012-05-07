@@ -1,0 +1,49 @@
+table {
+	width: 100%;
+	border: 1px solid #cef;
+	text-align: left; }
+th {
+	font-weight: bold;
+	background-color: #acf;
+	border-bottom: 1px solid #cef; }
+td,th {
+	padding: 4px 5px; }
+
+.score {
+	background-color: #F6790C;
+}
+
+/*For table row-stripe*/
+.odd {
+	background-color: #def; 
+}
+.odd td {
+	border-bottom: 1px solid #cef; 
+}
+
+.topsix {
+	background-color : #7CFC00
+}
+
+.rowHover {
+	background-color : #FFFF99;
+}
+
+#footer {
+	background: none repeat scroll 0 0 #131313;
+	margin-top: 20px;
+	color: #CCCCCC;
+	text-align: center;
+	line-height: 1.5;
+	padding: 10px 10px 5px 10px;
+	width : 100%;
+}
+
+#footer a:link, #footer  a:visited, #footer h4, #footer h4:visited {
+	color: #CCCCCC;
+	text-decoration: none;
+}
+#footer a:hover, #footer  a:active, #footer h4:hover, #footer h4:active {
+	color: #FFFFFF;
+	text-decoration: none;
+}
